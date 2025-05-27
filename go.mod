@@ -1,8 +1,6 @@
 module datasets_cli/v2
 
-go 1.23
-
-toolchain go1.23.4
+go 1.19
 
 require github.com/gosuri/uiprogress v0.0.1
 

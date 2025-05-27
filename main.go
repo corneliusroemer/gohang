@@ -3,14 +3,18 @@
 package main
 
 import (
-	"datasets_cli/v2/datasets"
 	"fmt"
 	"os"
+
+	"github.com/gosuri/uiprogress"
+)
+
+var (
+	progress *uiprogress.Progress
 )
 
 func main() {
 	fmt.Fprintln(os.Stderr, "DEBUG: Starting main()")
-	datasets.Execute()
 	os.Exit(0) // Exit with status code 0
 	fmt.Fprintln(os.Stderr, "DEBUG: This should never print")
 }
