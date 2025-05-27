@@ -5,3 +5,9 @@ when the indirect dependency [`github.com/gosuri/uilive`](https://github.com/gos
 together with Go version 1.21 or higher on ARM macs running macOS >= 13.
 
 This was discovered in the NCBI datasets CLI that uses uiprogress: https://github.com/ncbi/datasets/issues/490
+
+Repro can be executed as simply as:
+
+```sh
+go run github.com/corneliusroemer/gohang@main
+```
