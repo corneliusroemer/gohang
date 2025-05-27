@@ -1,4 +1,4 @@
-module gohang
+module github.com/corneliusroemer/gohang
 
 go 1.24
 
