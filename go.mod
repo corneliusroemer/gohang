@@ -1,4 +1,4 @@
-module uiprogresshang
+module gohang
 
 go 1.24
 
