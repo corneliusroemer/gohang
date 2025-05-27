@@ -1,4 +1,4 @@
-module datasets_cli/v2
+module uiprogresshang
 
 go 1.24
 
