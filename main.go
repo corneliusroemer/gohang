@@ -14,7 +14,6 @@ var (
 )
 
 func main() {
-	fmt.Fprintln(os.Stderr, "DEBUG: Starting main()")
-	os.Exit(0) // Exit with status code 0
-	fmt.Fprintln(os.Stderr, "DEBUG: This should never print")
+	fmt.Fprintln(os.Stderr, "DEBUG: Exiting the program immediately")
+	os.Exit(0) // Hangs here on Apple silicon macOS >=12 on go>=1.21 with gosuri/uilive v0.0.4
 }
